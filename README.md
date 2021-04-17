@@ -303,3 +303,19 @@ Cross Origin Resource Sharing (compartir fuentes de origenes cruzados)
 - tienen Ambito
 - Tienen Contexto
 
+### Ambito
+
+
+### Contexto
+- Por defecto las funciones son contenidas en WINDOW
+- El contexto NO es ESTATICO
+
+#### Hay varias formas de llamar una funcion
+Forma | Descripcion 
+---|---
+normal | no se que poner
+bind call apply | Dentro del prototipo de la funcion |
+new | es un operador
+
+
+

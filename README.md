@@ -304,7 +304,7 @@ Cross Origin Resource Sharing (compartir fuentes de origenes cruzados)
 - Tienen Contexto
 
 ### Ambito
-
+- Alcance de la funcion (similar al de otros lenguajes JAVA, C#), pero agrega los **CLOSURE**
 
 ### Contexto
 - Por defecto las funciones son contenidas en WINDOW

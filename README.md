@@ -304,19 +304,22 @@ Estas propiedades vienen `false` por defecto
 ### son objetos
 - son variadicas
 >No dependen de la cant de argumentos o parametros
->
 - tienen Ambito
 - Tienen Contexto
 
 ### Ambito
 - Alcance de la funcion (similar al de otros lenguajes JAVA, C#), pero agrega los **CLOSURE**
+>
+#### Ambito Lexico
+permite acceder al ambito de una funcion exterior con una funcion interior
 
-### Closure
--
+#### Closure
+Es un objeto que tiene una funcion y el entorno donde se creó
 
 ### Contexto
 - Por defecto las funciones son contenidas en WINDOW
 - El contexto NO es ESTATICO
+- Se utiliza el objeto `this` el cual siempre debe ser un objeto, por defecto es **window**
 
 #### Hay varias formas de llamar una funcion
 Forma | Descripcion 

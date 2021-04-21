@@ -286,14 +286,19 @@ Cross Origin Resource Sharing (compartir fuentes de origenes cruzados)
 ## Objetos
 ### Formas de crear un objeto
 - literales
+>`let a = {}`
 - Constructor
-- create
+- Create
+>`let proto = {cosa1: "cosa" , cosa2: function(){//algo}}`
+>`let b = Object.create(proto);`
 
 ### los objetos tienen 4 propiedades basicas
 - value
-- writable (bool)
-- enumerable (bool --> admite iterabilidad)
-- configurable (bool --> admite borrado)
+- writable (bool, false por defecto --> si admite escritura)
+- enumerable (bool, false por defecto --> admite iterabilidad)
+- configurable (bool, false por defecto --> admite borrado)
+
+Estas propiedades vienen `false` por defecto
 
 ## Funciones
 ### son objetos

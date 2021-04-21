@@ -317,16 +317,15 @@ permite acceder al ambito de una funcion exterior con una funcion interior
 Es un objeto que tiene una funcion y el entorno donde se creó
 
 ### Contexto
+- Se utiliza el objeto `this` el cual siempre debe ser un objeto, por defecto es **window**
 - Por defecto las funciones son contenidas en WINDOW
 - El contexto NO es ESTATICO
-- Se utiliza el objeto `this` el cual siempre debe ser un objeto, por defecto es **window**
+
 
 #### Hay varias formas de llamar una funcion
 Forma | Descripcion 
 ---|---
-normal | no se que poner
-bind call apply | Dentro del prototipo de la funcion |
+normal | aca `this` vale **window** salvo que le creemos un objetos dentro
+bind call apply | por parametro le podemos pasar el objeto que queremos que tome como `this` en vez de **window** 
 new | es un operador
-
-
 

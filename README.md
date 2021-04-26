@@ -329,3 +329,40 @@ normal | aca `this` vale **window** salvo que le creemos un objetos dentro
 bind call apply | por parametro le podemos pasar el objeto que queremos que tome como `this` en vez de **window** 
 new | es un operador
 
+
+# Clase 9
+
+## Clases
+
+### Declaracion
+
+```
+class Persona{
+  constructor(nombre,edad){
+    this.nombre=nombre;
+    this.edad=edad;
+  }
+}
+
+class Empleado extends Persona{
+  metodo()
+}
+```
+- Constructor
+> Solo puede haber uno por clase
+> Se lo utiliza para inicializar valores en las clases
+> 
+
+
+### Modo Estricto
+- No todos los navegadores lo soportan
+- Sirve para no declarar variables globales al pedo
+- sirve para mostrar mas excepciones en caso de error
+
+###IIFE (Immediatly Invoked function Expression)
+- Sirve para proteger variables locales de la funcion
+- Se ejecuta inmediatamente
+- Si se la asigna a una variable, solo retorna el valor en vez de la funcion
+
+
+

@@ -364,5 +364,19 @@ class Empleado extends Persona{
 - Se ejecuta inmediatamente
 - Si se la asigna a una variable, solo retorna el valor en vez de la funcion
 
+# Clase 10
+
+## PATRON 
+- Solucion reutilizable aplicada a problemas comunes
+- Tiene tres caracteristicas interesantes
+- - Son soluciones comprobadas
+- - Reutilizan facilmente
+- - pueden ser expresivos 
+- NO SON UNA SOLUCION EXACTA
+- Nos permite codificar de una forma **organizada** y **estructurada** para evitar refactorizar
+
+
+## CATEGORIAS
+
 
 

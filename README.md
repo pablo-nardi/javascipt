@@ -376,7 +376,39 @@ class Empleado extends Persona{
 - Nos permite codificar de una forma **organizada** y **estructurada** para evitar refactorizar
 
 
-## CATEGORIAS
+## CATEGORIAS MAS CONOCIDAS
 
+### Patron Modulo
+- Dentro del modulo, crear una objeto que se acceda desde el window
+- Este objeto va tener lo que necesitemos que sea public para manejar el modulo y su privacidad
+
+
+```codigo
+(function App(){
+// cosas de js
+//
+//
+
+window.algo = otra_cosa;
+})()
+```
+### Patron Revelador
+
+- De principio se guarda el valor en una variable global
+- la cual tiene acceso a los que necesitemos
+
+```codigo
+var revel = (function App(){
+// cosas de js
+//
+//
+})()
+```
+
+### Patron Singleton
+- Definir una funcion que se **instancie** una sola vez, así nadie la cambia.
+- ** SINGLETON != OBJETOS ESTATICOS **
+
+### Patron Pub/Sub
 
 
